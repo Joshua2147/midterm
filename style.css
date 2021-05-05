@@ -1,0 +1,123 @@
+body {
+  font-size: 120%;
+  background-image: url(bg1.jpg);
+  background-position:center center;
+  background-size: 100%,100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+
+}
+input, select, textarea {
+color: white;
+}
+
+.wrapper {
+	font-family: arial;
+	color: white;
+	box-sizing: border-box;
+    border: 20px solid black;
+	background: black;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+a{
+	font-size: 80%;
+	color: white;
+	text-decoration: none;
+}
+.button {
+  font-family: arial;
+  background-color: #d02121;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 84px;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  margin: auto;
+}
+.box {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #373737;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  -moz-appearance: textfield;
+}
+.box1 {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #373737;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  -moz-appearance: textfield;
+}
+.button1 {
+  cursor: default;
+  pointer-events: none;
+  background-color: #d02121;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 84px;
+  font-size: 36px;
+  margin: 2px 2px;
+  cursor: pointer;
+  margin: auto;
+}
+.text1{
+	font-family: arial;
+	font-size: 140%;
+}
+
+.error {
+  width: 93%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  margin-left: 1px;
+  border: 0px solid #a94442; 
+  color: white; 
+  background: #DB2E2E; 
+  opacity: 80%;
+  border-radius: 10px; 
+  text-align: center;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+.NYP{
+  color: white;
+  margin-bottom:20px;
+}
+.AAM{
+  color: white;
+  margin-bottom:20px;
+}
+
+.CB {
+
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+input, select, textarea {
+color: white;
